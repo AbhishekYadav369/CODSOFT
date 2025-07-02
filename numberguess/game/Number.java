@@ -9,7 +9,6 @@ public class Number {
     public static void main(String []args){
         // Generate a random number between 0 and 100
         int random = (int) (Math.random() * 101);
-        System.out.println("Random number generated (for testing purposes): " + random);
         System.out.println("Welcome to the Number Guessing Game!");
        try( Scanner scanner = new Scanner(System.in)){
           int guess ;
